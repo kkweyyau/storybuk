@@ -1,0 +1,27 @@
+name: qweqwe_widgetbook
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.1.0
+  widgetbook:
+  widgetbook_annotation:
+  qweqwe_ui:
+    git: https://github.com/kkweyyau/qweqwe_ui.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  widgetbook_generator:
+  build_runner:
+
+
+flutter:
+  uses-material-design: true
